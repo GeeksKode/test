@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: rgb(3, 31, 44);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.main-container{
+    padding: 15px 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+a:hover{
+    color: rgb(234, 45, 64);
+}
+
+.image-container{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.image-container>img{
+    width: 100%;
+}
+
+.zoo-container{
+    margin-top: 0;
+    padding: 20px;
+}
+
+.zoo-container>p>img{
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.zoo-container h3{
+    font-size: 30px;
+}
+
+section{
+    height: 100vh;
+}
+
+thead{
+    background-color: rgb(35, 49, 53);
+    color: white;
+}
+
+tbody{
+    background-color: #b1c4ca;
+}
+td, th{
+    padding: 3px 5px;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(218, 235, 242);
+}
+form{
+    width: 500px;
+    background-color: coral;
+    margin: auto;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    margin: auto;
+}
+.form-element label{
+    margin-bottom: 10px;
+}
+.form-element input, select, button{
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+input:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.real-input, button, textarea, select {
+    width: 300px;
+}
+
+button{
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: tomato;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+fieldset{
+    padding: 20px;
+    border-radius: 20px;
+}
+
+fieldset legend{
+    font-size: 20px;
+    color: black;
+    background-color: #fff;
+    padding: 1px 3px;
+}
